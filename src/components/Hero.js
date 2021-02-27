@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
     return (
         <section className="hero">
-            <h2>Wisdom Books</h2>
-            <h3>A room without books is like a <br />body without a soul</h3>
-            <Link className="btn" to="/books">View All Books</Link>
+            <h2>LIT-HOP Bookstore</h2>
+            <h3>A collection of literature <br />From the best in hip-hop</h3>
+            <Link className="btn" to="/books">Browse All Books</Link>
         </section>
     )
 }
